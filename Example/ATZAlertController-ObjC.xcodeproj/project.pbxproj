@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B8220B91D508B0D003B75EC /* ATZAlertController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8220B61D508B0C003B75EC /* ATZAlertController+Helper.m */; };
+		6B8220BA1D508B0D003B75EC /* ATZAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8220B81D508B0D003B75EC /* ATZAlertController.m */; };
 		6BBB3AC51D4CC7B700210D35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB3AC41D4CC7B700210D35 /* main.m */; };
 		6BBB3AC81D4CC7B700210D35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB3AC71D4CC7B700210D35 /* AppDelegate.m */; };
 		6BBB3ACB1D4CC7B700210D35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB3ACA1D4CC7B700210D35 /* ViewController.m */; };
 		6BBB3ACE1D4CC7B700210D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BBB3ACC1D4CC7B700210D35 /* Main.storyboard */; };
 		6BBB3AD01D4CC7B700210D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BBB3ACF1D4CC7B700210D35 /* Assets.xcassets */; };
 		6BBB3AD31D4CC7B700210D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BBB3AD11D4CC7B700210D35 /* LaunchScreen.storyboard */; };
-		6BBB3ADF1D4CC84400210D35 /* ATZAlertController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB3ADC1D4CC84400210D35 /* ATZAlertController+Helper.m */; };
-		6BBB3AE01D4CC84400210D35 /* ATZAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB3ADE1D4CC84400210D35 /* ATZAlertController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B8220B51D508B0C003B75EC /* ATZAlertController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ATZAlertController+Helper.h"; sourceTree = "<group>"; };
+		6B8220B61D508B0C003B75EC /* ATZAlertController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ATZAlertController+Helper.m"; sourceTree = "<group>"; };
+		6B8220B71D508B0D003B75EC /* ATZAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATZAlertController.h; sourceTree = "<group>"; };
+		6B8220B81D508B0D003B75EC /* ATZAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATZAlertController.m; sourceTree = "<group>"; };
 		6BBB3AC01D4CC7B700210D35 /* ATZAlertController-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATZAlertController-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BBB3AC41D4CC7B700210D35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BBB3AC61D4CC7B700210D35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,10 +32,6 @@
 		6BBB3ACF1D4CC7B700210D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BBB3AD21D4CC7B700210D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BBB3AD41D4CC7B700210D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BBB3ADB1D4CC84400210D35 /* ATZAlertController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ATZAlertController+Helper.h"; sourceTree = "<group>"; };
-		6BBB3ADC1D4CC84400210D35 /* ATZAlertController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ATZAlertController+Helper.m"; sourceTree = "<group>"; };
-		6BBB3ADD1D4CC84400210D35 /* ATZAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATZAlertController.h; sourceTree = "<group>"; };
-		6BBB3ADE1D4CC84400210D35 /* ATZAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATZAlertController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B8220B41D508B0C003B75EC /* ATZAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				6B8220B51D508B0C003B75EC /* ATZAlertController+Helper.h */,
+				6B8220B61D508B0C003B75EC /* ATZAlertController+Helper.m */,
+				6B8220B71D508B0D003B75EC /* ATZAlertController.h */,
+				6B8220B81D508B0D003B75EC /* ATZAlertController.m */,
+			);
+			path = ATZAlertController;
+			sourceTree = "<group>";
+		};
 		6BBB3AB71D4CC7B700210D35 = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +75,7 @@
 		6BBB3AC21D4CC7B700210D35 /* ATZAlertController-ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				6BBB3ADA1D4CC84400210D35 /* ATZAlertController */,
+				6B8220B41D508B0C003B75EC /* ATZAlertController */,
 				6BBB3AC61D4CC7B700210D35 /* AppDelegate.h */,
 				6BBB3AC71D4CC7B700210D35 /* AppDelegate.m */,
 				6BBB3AC91D4CC7B700210D35 /* ViewController.h */,
@@ -84,17 +95,6 @@
 				6BBB3AC41D4CC7B700210D35 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6BBB3ADA1D4CC84400210D35 /* ATZAlertController */ = {
-			isa = PBXGroup;
-			children = (
-				6BBB3ADB1D4CC84400210D35 /* ATZAlertController+Helper.h */,
-				6BBB3ADC1D4CC84400210D35 /* ATZAlertController+Helper.m */,
-				6BBB3ADD1D4CC84400210D35 /* ATZAlertController.h */,
-				6BBB3ADE1D4CC84400210D35 /* ATZAlertController.m */,
-			);
-			path = ATZAlertController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,10 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BBB3ADF1D4CC84400210D35 /* ATZAlertController+Helper.m in Sources */,
+				6B8220B91D508B0D003B75EC /* ATZAlertController+Helper.m in Sources */,
 				6BBB3ACB1D4CC7B700210D35 /* ViewController.m in Sources */,
 				6BBB3AC81D4CC7B700210D35 /* AppDelegate.m in Sources */,
-				6BBB3AE01D4CC84400210D35 /* ATZAlertController.m in Sources */,
+				6B8220BA1D508B0D003B75EC /* ATZAlertController.m in Sources */,
 				6BBB3AC51D4CC7B700210D35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

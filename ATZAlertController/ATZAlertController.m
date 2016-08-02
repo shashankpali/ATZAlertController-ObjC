@@ -56,7 +56,7 @@
                     showAlertInstantly:(BOOL)showAlert
                                  block:(actionHandler)handler
 {
-  for (id obj in titleArray) {
+  for (id __attribute__((unused)) obj in titleArray) {
     
     NSAssert([obj isKindOfClass:[NSString class]], @"Required array containing \"String\" as object");
   }
@@ -82,7 +82,7 @@
                     showAlertInstantly:(BOOL)showAlert
                                  block:(nullable actionHandler)handler
 {
-  for (id obj in buttonArray) {
+  for (id __attribute__((unused)) obj in buttonArray) {
     
     NSAssert([obj isKindOfClass:[ATZActionButton class]], @"Required array containing \"ATZActionButton\" as object");
   }
