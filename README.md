@@ -27,7 +27,7 @@ Download .zip file and extract it. There you will find the `ATZAlertController` 
                            message:@"Array containing object string"
                  cancelButtonTitle:@"Cancel"
             destructiveButtonTitle:@"Remove"
-                 otherButtonTitles:@[@"Ok",@"Right"]
+                 otherButtonTitles:@[@"Ok", @"Right"]
                     preferredStyle:UIAlertControllerStyleAlert
                 showAlertInstantly:YES
                              block:^(UIAlertAction * _Nonnull action, NSString * _Nonnull titleString) {
@@ -41,10 +41,10 @@ Download .zip file and extract it. There you will find the `ATZAlertController` 
 ATZActionButton *button1 = [ATZActionButton actionWithTitle:@"Ok" preferredStyle:UIAlertActionStyleDefault];
 ATZActionButton *button2 = [ATZActionButton actionWithTitle:@"Remove" preferredStyle:UIAlertActionStyleDestructive];
 
-alert = [ATZAlertController alertWithTitle:@"My Alert"
+ATZAlertController *alert = [ATZAlertController alertWithTitle:@"My Alert"
                                    message:@"Array containing object string"
                          cancelButtonTitle:@"Cancel"
-                         otherActionButton:@[button1,button2]
+                         otherActionButton:@[button1, button2]
                             preferredStyle:UIAlertControllerStyleAlert
                         showAlertInstantly:NO
                                      block:^(UIAlertAction * _Nonnull action, NSString * _Nonnull titleString) {
